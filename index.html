@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+    <section class="filters">
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="animals">Animals</button>
+        <button data-filter="cities">Cities</button>
+    </section>
+    <section class="gallery">
+        <div class="image nature"><img src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg" alt="Nature"></div>
+        <div class="image animals"><img src="https://t4.ftcdn.net/jpg/04/15/79/09/360_F_415790935_7va5lMHOmyhvAcdskXbSx7lDJUp0cfja.jpg" alt="Animals"></div>
+        <div class="image cities"><img src="https://i.natgeofe.com/n/838dbb82-a2b5-4675-a7c6-ff80b0a1f651/future-cities-shanghai-yanan-expressway.jpg" alt="Cities"></div>
+    </section>
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-image" src="" alt="">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
